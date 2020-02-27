@@ -10,10 +10,11 @@ public:
 	~Player();
 
 	void handleInput(float dt);
+	void update(float dt);
 	Bullet* getBullet() {
 		return &bullet;
 	};
 
-private
+private:
 	Bullet bullet;
 };

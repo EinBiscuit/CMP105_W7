@@ -11,10 +11,10 @@ public:
 
 	void handleInput(float dt);
 	void update(float dt);
-	Bullet* getBullet() {
-		return bullet;
+	Bullet* getBullet(int n) {
+		return bullet[n];
 	};
 
 private:
-	Bullet* bullet;
+	Bullet* bullet[3];
 };
