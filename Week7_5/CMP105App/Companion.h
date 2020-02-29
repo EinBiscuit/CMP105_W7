@@ -1,7 +1,8 @@
 #pragma once
 
 #include "Framework/GameObject.h"
-#include "Player.h"
+
+class Player;
 
 class Companion : public GameObject
 {

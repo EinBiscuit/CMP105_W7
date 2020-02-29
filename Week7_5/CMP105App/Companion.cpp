@@ -1,4 +1,5 @@
 #include "Companion.h"
+#include "Player.h"
 
 Companion::Companion()
 {
